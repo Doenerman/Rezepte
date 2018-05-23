@@ -1,3 +1,5 @@
 # latex output
 *.aux
 *.out
+*.log
+*.toc
