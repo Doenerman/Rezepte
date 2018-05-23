@@ -1,0 +1,73 @@
+\section{GERICHTNAME}
+  % Gerichttypen sind Vor, Haupt und Nach
+  \label{GERICHTTYPE:GERICHTNAME}
+    
+    % Der Text hier kann dafür genutzt werden um dem Leser das
+    % Gericht ein wenig schmackhaft zu machen und eine nette
+    % Einleitung zu machen
+
+    \subsection*{Kurzinfo}
+      % Es folgt eine sehr einfach Zusammenfassung über Dauer, Menge (für
+      % wieviel Personen das Essen reicht) und Schwierigkeitsgrad
+      \begin{itemize}
+        \item Dauer:
+          \begin{displaymath}
+            % Nach dem kaufmännischen und-Zeichen kann die Zeit der jeweiligen
+            % Aktion eingetragen werden.
+            \begin{array}{l r}
+              \text{Vorbereitung} & \\
+              \text{Ruhe} & \\
+              \text{Kochen} & \\ \hline
+              \text{gesamt} &
+            \end{array}
+          \end{displaymath}
+        % ANZAHL muss ersetzt werden für die Zahl, welche den Portionen
+        % entspricht
+        \item Für ANZAHL Portionen
+        % Da Schwierigkeitsgrade ohnehin schwer auf einen Nenner zu bringen
+        % sind, reicht ein pi-mal-Daumen Prosaausdruck
+        \item Schwierigkeit
+      \end{itemize}
+
+    \subsection*{Zutaten}
+      % Bei keinem Rezept sollte eine Angabe der benötigten Zutaten fehlen.
+      % Typischwerweise werden Zutaten unterteilt, je nach dem zu welchem Teil
+      % eines Gerichtes sie gehören. Zusätzliche Zutatengruppen können durch
+      %
+      % \item Zutatengruppe Y
+      % \begin{enumerate}
+      %   \item Zutat
+      % \end{enumerate}
+      %
+      % hinzugefügt werden, wobei jede neue Zutat dur ein "\item Zutat"
+      % innerhalb eines "begin-end enumerates" gekennzeichnet wird
+      \begin{enumerate}
+        \item Irgendeine Zutatengruppe X
+        \begin{itemize}
+          \item Zutat für Zutatengruppe X
+        \end{itemize}
+        \item Gewürze:
+        \begin{itemize}
+          \item irgendein Gewürz
+          \item ein anderes Gewürz
+        \end{itemize}
+      \end{enumerate}
+
+    \subsection*{Zubereitung}
+      % Als nächstes steht die Kochanleitung selbst an. Hierbei werden
+      % zusammenhängende Schritte mit '\item' gekennzeichnet. Da es sich hier
+      % immer noch um eine mehr als nur Hobby-projekt handelt, wäre ein bisschen
+      % unterhaltsame Texte und kreativ geschriebenes natürlich sehr schön,
+      % solange es verständlich bleibt ;-)
+      \begin{enumerate}
+        \item Schritt 1 ...
+        \item Schritt 2 ...
+      \end{enumerate}
+
+    \subsection*{Variationsideen}
+      % Falls jemand Ideen hat wie ein Gericht ein wenig abgewandelt oder
+      % erweitert werden kann, so kann sich die Person in dieser Sektion
+      % auslassen. Hierbei gehört eine Idee jeweils hinter ein "\item"
+      \begin{itemize}
+        \item Idee 1
+      \end{itemize}
